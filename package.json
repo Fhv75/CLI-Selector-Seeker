@@ -1,0 +1,21 @@
+{
+	"name": "cli-selector-seeker",
+	"version": "1.0.0",
+	"description": "A simple CLI app that receives a CSS selector argument and prints the text content that matches the selector",
+	"main": "index.js",
+	"scripts": {
+		"start": "ts-node src/index.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"ts-node": "^10.9.1",
+		"typescript": "^5.1.6"
+	},
+	"dependencies": {
+		"axios": "^1.4.0",
+		"cheerio": "^1.0.0-rc.12"
+	}
+}
